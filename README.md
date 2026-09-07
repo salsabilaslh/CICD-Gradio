@@ -1,12 +1,3 @@
----
-title: CICD Gradio Assignment
-emoji: 🚀
-colorFrom: blue
-colorTo: indigo
-sdk: static
-pinned: false
----
-
 # Automated CI/CD Pipeline with GitHub Actions & Hugging Face
 
 This project demonstrates a fully automated **Continuous Integration and Continuous Deployment (CI/CD)** pipeline. Any updates pushed to the GitHub repository are automatically built and deployed to this Hugging Face Static Space.
