@@ -10,6 +10,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # <--- Ini tambahan penting supaya riwayat kodenya utuh
 
       - name: Push to Hugging Face
         env:
@@ -17,5 +19,5 @@ jobs:
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
-          git remote add hf https://user:$HF_TOKEN@huggingface.co/spaces/salsabilaslh/CICD_Gradio
+          git remote add hf https://user:$HF_TOKEN@huggingface.co/spaces/salsabilaslh/CICD-Gradio
           git push --force hf main:main
