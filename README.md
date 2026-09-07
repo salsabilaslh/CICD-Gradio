@@ -1,10 +1,19 @@
-# Automated CI/CD Pipeline with GitHub Actions & Hugging Face
+---
+title: CICD Gradio Assignment
+emoji: 🚀
+colorFrom: blue
+colorTo: indigo
+sdk: static
+pinned: false
+---
+
+# 🚀 Automated CI/CD Pipeline with GitHub Actions & Hugging Face
 
 This project demonstrates a fully automated **Continuous Integration and Continuous Deployment (CI/CD)** pipeline. Any updates pushed to the GitHub repository are automatically built and deployed to this Hugging Face Static Space.
 
 ---
 
-## How It Works (Workflow Architecture)
+## 🛠️ How It Works (Workflow Architecture)
 
 1. **Source Code Management**: 
    * Frontend files (`index.html`) and workflow configurations are managed locally in **VS Code** and tracked via **Git**.
@@ -17,12 +26,12 @@ This project demonstrates a fully automated **Continuous Integration and Continu
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
 ```text
 📦 CICD-Gradio
  ┣ 📂 .github
  ┃ ┗ 📂 workflows
- ┃   ┗ 📜 deploy.yml    
- ┣ 📜 index.html        
- ┗ 📜 README.md         
+ ┃   ┗ 📜 deploy.yml    # Automated GitHub Actions workflow configuration
+ ┣ 📜 index.html        # Main landing page of the web application
+ ┗ 📜 README.md         # Project documentation and HF Space configuration
